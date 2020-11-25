@@ -1,3 +1,53 @@
-.red {
-    color: red;
+html, body {
+    background-color: #687BF3;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+.first-page {
+    max-width: 300px;
+    padding: 30px;
+    margin-top: 120px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0;
+    background-color: rgb(242, 242, 242);
+    box-shadow: 0 10px 20px #3e498b;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-content: center;
+    text-align: center;
+}
+
+#cap-header {
+    text-transform: uppercase;
+}
+
+.next-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    margin: 20px 50px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px black;
+    border-style: solid;
+    outline: none;
+    border-radius: 15px;
 }
